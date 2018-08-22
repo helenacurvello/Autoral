@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class Move : MonoBehaviour {
 
-    float vel;
-    
-    // Use this for initialization
+	// Use this for initialization
 	void Start () {
 		
 	}
@@ -15,7 +13,7 @@ public class Move : MonoBehaviour {
 	void Update () {
 		if(Input.GetMouseButtonDown(0))
         {
-            transform.Translate(0, 0, vel);
+            Debug.Log("Personagem se movimentou");
         }
 	}
 }
